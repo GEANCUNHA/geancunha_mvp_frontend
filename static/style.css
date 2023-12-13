@@ -1,0 +1,56 @@
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   margin: 0;
+   padding: 20px; 
+}
+
+h1, h2 {
+   text-align: center;
+   margin-top: 20px;
+}
+
+
+table {
+   
+   width: 200% !important; 
+   margin: 0 -50%;
+}
+
+#addTaskBtn {
+   background-color: green;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+#deleteTaskBtn {
+   background-color: red;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 12px;
+   text-align: left;
+}
+
+th {
+   background-color: rgb(69, 7, 7); 
+
+}
+
+th, th * {
+   color: rgb(250, 237, 237);
+}
+
+input, button {
+   margin-top: 10px;
+}
